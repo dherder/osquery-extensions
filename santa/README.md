@@ -1,6 +1,6 @@
 # Santa osquery Extension
 
-[Santa](https://github.com/google/santa/) is an open-source application whitelist/blacklist enforcement solution for macOS.
+[Santa](https://github.com/google/santa/) is an open-source application accept list/ deny list enforcement solution for macOS.
 This extension for osquery enables the osquery user to read the log of `DENY` events from the Santa generated log file on the host, 
 with a table called `santa_denied`. It also adds a table called `santa_allowed`, to read the log of `ALLOW` events. Finally, it allows the user to remotely view and *create* new rules for Santa with a table called `santa_rules`.
 
